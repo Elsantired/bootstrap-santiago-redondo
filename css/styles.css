@@ -1,0 +1,49 @@
+.navegador{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+background: rgb(255,151,84);
+background: linear-gradient(90deg, rgba(255,151,84,1) 0%, rgba(255,255,255,1) 65%);
+font-size: 0.8rem;
+list-style-type: none;
+font-style: none;
+}
+
+.logo{
+    height: 75px;
+}
+
+.links{
+font-style: none;
+list-style-type: none;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.boton{
+    background: linear-gradient(90deg, rgba(255,151,84,1) 0%, rgba(255,255,255,1) 65%);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid rgb(255,151,84) ;
+    font-weight: 100;
+}
+
+.consultoriotitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
