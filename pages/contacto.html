@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Proyecto Encontrarme - Contacto </title>
+</head>
+
+<body>
+    <header class="row">
+        <nav class="container-fluid navegador"><img class="logo" src="../images/logo-encontrarme.png" alt="logo encontrarme">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/quiensoy.html">¿Quien soy?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/sesiones.html">Sesiones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/talleres.html">Talleres</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+    </header>   
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../images/1.png" class="d-block w-100" alt="Iara Musri">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="links"><a href="../pages/quiensoy.html" class="btn">Te invito a conocerme.</a></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a href="..."></a><img src="../images/3.png" class="d-block w-100" alt="sesiones">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="links"><a href="../pages/sesiones.html" class="btn">Como trabajamos juntos.</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/2.png" class="d-block w-100" alt="Talleres">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="links"><a href="../pages/talleres.html" class="btn">Como nos formamos.</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="contacto">
+        <h2 class="titulo-contacto">Contacto</h2>
+
+        <div class="menu-contacto">
+            <div>
+                <label for="campo-nombreyapellido">Nombre y Apellido</label>
+                <input type="text" id="campo-nombreyapellido" placeholder="nombre y apellido" required>
+            </div>
+
+            <div>
+                <label for="campo-telefono">Telefono</label>
+                <input type="tel" id="campo-telefono" placeholder="Telefono" required>
+            </div>
+
+            <div>
+                <label for="campo-email">Email</label>
+                <input type="mail" id="campo-email" placeholder="email" required>
+            </div>
+
+            <div>
+                <label for="campo-comentario">Comentario</label>
+                <textarea name="comentario" id="campo-comentario" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+            <label for="campo-novedades">¿Quiere recibir novedades?</label>
+                <input type="checkbox" name="Recibir novedades" id="campo-novedades" placeholder="desea recibir novedades">
+            </div>
+            <div class="botones-contacto">
+                <input type="submit" value="Enviar" class="btn boton">
+                <input type="reset" value="Borrar" class="btn boton">
+            </div>
+        </div>
+    </section>
+      
+      <footer>
+        <h2>Muchas gracias por tu visita</h2>
+        <h4 class="rrss"> Seguime en mis RRSS
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a> 
+        </h4>
+        <h5>Powered by Santiago Redondo</h5>
+     </footer>
+     
+<script src="./js/bootstrap.js"></script>
+    
+</body>
+</html>

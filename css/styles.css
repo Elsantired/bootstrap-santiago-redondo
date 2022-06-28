@@ -1,22 +1,27 @@
+
 .navegador{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 10px;
+width: 100vw;
+height: 130px;
 background: rgb(255,151,84);
 background: linear-gradient(90deg, rgba(255,151,84,1) 0%, rgba(255,255,255,1) 65%);
-font-size: 0.8rem;
-list-style-type: none;
-font-style: none;
+font-size: 1rem;
+
 }
 
 .logo{
     height: 75px;
-}
+    transition: 0.5s;
 
-.links{
-font-style: none;
-list-style-type: none;
+}
+ .logo:hover{
+    transform: scale(1.1);
+ }
+
+.nav-link{
+color: black
 }
 
 .cards{
@@ -27,23 +32,270 @@ list-style-type: none;
 }
 
 .boton{
-    background: linear-gradient(90deg, rgba(255,151,84,1) 0%, rgba(255,255,255,1) 65%);
+    background: rgb(255,151,84);
     display: flex;
     justify-content: center;
     align-items: baseline;
-    border: 1px solid rgb(255,151,84) ;
+    
     font-weight: 100;
+}
+
+.turnos{
+    margin: auto;
+    width: 85%;
+    height: 500px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
 }
 
 .consultoriotitle{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 30%;
 }
+
+.card{
+    transition: 0.5s;
+}
+ .card:hover{
+    transform: scale(1.05);
+ }
 
 .maps{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
+}
+
+.maps-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.virtual{
+    margin: auto;
+    width: 85%;
+    height: 250px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
+    margin-top: 15px; 
+    transition: 0.5s;
+}
+
+.virtual-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+ .virtual-card:hover{
+    transform: scale(1.1);  
+}
+
+.rrss a{
+    color: white;
+}
+
+.titulo-sesiones{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.quiensoy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: auto;
+    width: 90%;
+    height: 420px;
     padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.quiensoy:hover{
+    transform: scale(1.05);
+}
+
+.quiensoy-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.imagen-quiensoy{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.talleres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+
+}
+
+.talleres-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.imagenes-talleres{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    object-fit: cover;
+    width: 90%;
+    height: auto;
+    gap: 20px;
+    transition: 0.2s;
+    padding: 20px;
+    
+}
+
+.taller1{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border-radius: 2%;
+    background-size: 100% auto;
+}
+
+.taller1:hover{
+    transform: scale(1.02);
+}
+
+.taller2{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border-radius: 2%;
+    background-size: 100% auto;
+}
+
+.taller2:hover{
+    transform: scale(1.02);
+}
+
+.taller3{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border-radius: 2%;
+    background-size: 100% auto;
+}
+
+.taller3:hover{
+    transform: scale(1.02);
+}
+.taller4{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border-radius: 2%;
+    background-size: 100% auto;
+}
+
+.taller4:hover{
+    transform: scale(1.02);
+}
+.taller5{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border-radius: 2%;
+    background-size: 100% auto;
+}
+
+.taller5:hover{
+    transform: scale(1.02);
+}
+.taller6{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border-radius: 2%;
+    background-size: 100% auto;
+}
+
+.taller6:hover{
+    transform: scale(1.02);
+}
+
+.contacto{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+}
+
+.titulo-contacto{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-contacto{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.botones-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+
+footer{
+    background: rgb(255,151,84);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
 }
